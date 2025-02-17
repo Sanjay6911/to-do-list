@@ -46,7 +46,7 @@ const Todo = () => {
     },[todoList])
 
     return (
-        <div className='bg-white place-self-center w-11/12 max-w-md flex flex-col min-h-[550px] rounded-xl mx-auto p-4 [@media(max-width:380px)]:max-w-[85%]'>
+        <div className='bg-white place-self-center w-11/12 max-w-md flex flex-col min-h-[550px] rounded-xl mx-auto p-4 [@media(max-width:450px)]:max-w-[85%] [@media(max-width:360px)]:overflow-x-hidden'>
             <div className='flex items-center mt-7 gap-2'>
                 <img className='w-8' src={todo_icon} alt="to-do-icon" />
                 <h1 className='text-3xl font-semibold'>To-Do List</h1>
